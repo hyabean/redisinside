@@ -35,7 +35,7 @@ using (var redis2 = new Redis())
 
 Simply add the Nuget package:
 
-`PM> Install-Package redis-inside`
+`PM> Install-Package redisinside`
 
 ## Requirements
 

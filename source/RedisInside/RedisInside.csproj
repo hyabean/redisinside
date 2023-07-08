@@ -2,16 +2,16 @@
 
   <PropertyGroup>
     <TargetFrameworks>net451;net46;netstandard2.0</TargetFrameworks>
-    <Description>Start Redis from .NET for integration tests. Contains redis runtime embedded in the dll.</Description>
+    <Description>Start Redis from .NET for integration tests. Contains redis runtime embedded in the dll. folk from https://github.com/poulfoged/redis-inside</Description>
     <PackageTags>redis, integration, redis-64, caching</PackageTags>
-    <Authors>Monzoom (Poul Foged)</Authors>
-    <PackageId>redis-inside</PackageId>
+    <Authors></Authors>
+    <PackageId>RedisInside</PackageId>
     <PackageIconUrl>https://raw.githubusercontent.com/poulfoged/redis-inside/master/icon.png</PackageIconUrl>
-    <PackageProjectUrl>https://github.com/poulfoged/redis-inside</PackageProjectUrl>
-    <Product>Redis Inside</Product>
+    <PackageProjectUrl>https://github.com/hyabean/redisinside</PackageProjectUrl>
+    <Product>RedisInside</Product>
     <AssemblyName>RedisInside</AssemblyName>
     <RootNamespace>RedisInside</RootNamespace>
-    <Version>3.3.0</Version>
+    <Version>3.2.100</Version>
     <Company />
   </PropertyGroup>
 
