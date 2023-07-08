@@ -11,7 +11,7 @@
     <Product>RedisInside</Product>
     <AssemblyName>RedisInside</AssemblyName>
     <RootNamespace>RedisInside</RootNamespace>
-    <Version>5.0.14.1</Version>
+    <Version>7.0.11.1</Version>
     <Company />
   </PropertyGroup>
 

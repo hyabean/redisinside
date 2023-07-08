@@ -32,7 +32,7 @@ namespace RedisInside
             process.StartInfo = new ProcessStartInfo(" \"" + executable.Info.FullName + " \"")
             {
                 UseShellExecute = false,
-                Arguments = string.Format("--port {0} --bind 127.0.0.1 --persistence-available no", config.port),
+                Arguments = string.Format("--port {0} --bind 127.0.0.1 --save \"\"", config.port),
                 WindowStyle = ProcessWindowStyle.Maximized,
                 CreateNoWindow = true,
                 LoadUserProfile = false,
