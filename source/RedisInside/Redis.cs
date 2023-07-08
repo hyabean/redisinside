@@ -68,7 +68,7 @@ namespace RedisInside
         /// </summary>
         private void DetectServerReady(object sender, DataReceivedEventArgs e)
         {
-            if (!String.IsNullOrWhiteSpace(e?.Data) && e.Data.Contains("now ready to accept connections"))
+            if (!String.IsNullOrWhiteSpace(e?.Data) && e.Data.Contains("Ready to accept connections"))
             {
                 serverReady.Set(); // Signal that it is now safe to consume this instance of Redis
             }
